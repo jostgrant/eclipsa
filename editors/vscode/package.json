@@ -1,0 +1,31 @@
+{
+    "name": "eclipsa",
+    "displayName": "eclipsa",
+    "description": "Eclipsa is a mod of the Shirotelin light colorscheme that prioritizes 'tactful contrast'.",
+    "version": "0.5.0",
+    "license": "MIT",
+    "publisher": "jostgrant",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "icon": "images/eclipsa-128.png",
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jostgrant/eclipsa-vscode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jostgrant/eclipsa-vscode/issues"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "eclipsa",
+                "uiTheme": "vs",
+                "path": "./themes/eclipsa-color-theme.json"
+            }
+        ]
+    }
+}
